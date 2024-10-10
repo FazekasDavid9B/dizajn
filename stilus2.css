@@ -1,0 +1,99 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    font-family: "Roboto", sans-serif;
+    width: 80%;
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ask-card{
+    background-color:rgb(214, 218, 226);
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.rate-card img{
+    size: 5px;
+}
+
+.ertekeles{
+    background-color: rgb(40, 53, 70);
+    display: flex;
+   margin-left: auto;
+    margin-right: auto;
+}
+
+.ertekeles{
+    border-color: #C1DA62;
+    padding: 20px 10px;
+    width: 50%;
+    cursor: pointer;
+    background-color: rgb(229, 235, 241);
+    margin-left: 1.5%;
+    margin-right: 1,5%;
+}
+
+
+#input{
+    width: 90%;
+    height: 90px;
+}
+
+#send{
+    position: absolute;
+    right: 8%;
+    background-color: #C1DA62;
+    color: white;
+    border: grey 1px solid;
+    width: 150px;
+    height: 65px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+
+h1{
+    color: rgb(66, 113, 202);
+    text-align: center;
+    font-size: 40px;
+    line-height: 1px;
+}
+
+h6{
+    text-align: center;
+    line-height: 0px;    
+    color: rgb(66, 113, 202);
+    font-size: medium;
+}
+
+h5{
+    text-align: center;
+    color:#C1DA62;
+    font-size: 26px;
+    line-height: 50px;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+img{
+    height: 50px;
+    width: 50px;
+}
+.ertekeles :hover{
+    background-color: #C1DA62;
+    color: white;
+}
+p{
+    color: rgb(66, 113, 202);
+}
